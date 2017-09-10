@@ -1,0 +1,38 @@
+h2 {
+    font-family: 'Pattaya', sans-serif;
+}
+
+p {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+}
+
+#personal {
+    border: 7px double;
+    background: #9370DB;
+}
+
+#education {
+    border: 7px double;
+    background: #87CEFA;
+}
+
+#experience {
+    border: 7px double;
+    background: #8FBC8B;
+}
+
+#skills {
+    border: 7px double;
+    background: #F0E68C;
+}
+
+#interests {
+    border: 7px double;
+    background: #FA8072;
+}
