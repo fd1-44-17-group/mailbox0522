@@ -1,0 +1,520 @@
+div {
+    border: solid 1px;
+    border-collapse: collapse;
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+.fon {
+    background-color: grey;
+}
+
+.figure {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+}
+
+.peshka {
+    background-position-x: -263px;
+}
+
+.ladya {
+    background-position-x: -104px;
+}
+
+.kon {
+    background-position-x: -210px;
+}
+
+.slon {
+    background-position-x: -156px;
+}
+
+.queen {
+    background-position-x: -50px;
+}
+.king {
+    background-position-x: 0px;
+}
+.black {
+    background-position-y: 0px;
+}
+
+.white {background-position-y: -52px;
+}
+
+.block_first {
+    position: absolute;
+}
+
+
+
+._first {
+    left: 0px;
+}
+
+._a {
+    left: 47px;
+}
+
+._b {
+    left: 94px;
+}
+
+._c {
+    left: 141px;
+}
+
+._d {
+    left: 188px;
+}
+
+._e {
+    left: 235px;
+}
+
+._f {
+    left: 282px;
+}
+
+._g {
+    left: 329px;
+}
+
+._h {
+    left: 376px;
+}
+
+._last {
+    left: 423px;
+}
+
+
+
+
+
+._b0 {
+    top: -47px;
+}
+
+._c0 {
+    top: -94px;
+}
+
+._d0 {
+    top: -141px;
+}
+
+._e0 {
+    top: -188px;
+}
+
+._f0 {
+    top: -235px;
+}
+
+._g0 {
+    top: -282px;
+}
+
+._h0 {
+    top: -329px;
+}
+
+._last0 {
+    top: -376px;
+}
+
+
+
+
+
+._first1 {
+    top: -376px;
+}
+
+._a1 {
+    top: -423px;
+}
+
+
+._b1 {
+    top: -470px;
+}
+
+._c1 {
+    top: -517px;
+}
+
+._d1 {
+    top: -564px;
+}
+
+._e1 {
+    top: -611px;
+}
+
+._f1 {
+    top: -658px;
+}
+
+._g1 {
+    top: -705px;
+}
+
+._h1 {
+    top: -752px;
+}
+
+._last1 {
+    top: -799px;
+}
+
+
+
+
+._first2 {
+    top: -799px;
+}
+
+._a2 {
+    top: -846px;
+}
+
+
+._b2 {
+    top: -893px;
+}
+
+._c2 {
+    top: -940px;
+}
+
+._d2 {
+    top: -987px;
+}
+
+._e2 {
+    top: -1034px;
+}
+
+._f2 {
+    top: -1081px;
+}
+
+._g2 {
+    top: -1128px;
+}
+
+._h2 {
+    top: -1175px;
+}
+
+._last2 {
+    top: -1222px;
+}
+
+
+
+
+._first3 {
+    top: -1222px;
+}
+
+._a3 {
+    top: -1269px;
+}
+
+
+._b3 {
+    top: -1316px;
+}
+
+._c3 {
+    top: -1363px;
+}
+
+._d3 {
+    top: -1410px;
+}
+
+._e3 {
+    top: -1457px;
+}
+
+._f3 {
+    top: -1504px;
+}
+
+._g3 {
+    top: -1551px;
+}
+
+._h3 {
+    top: -1598px;
+}
+
+._last3 {
+    top: -1645px;
+}
+
+
+
+._first4 {
+    top: -1645px;
+}
+
+._a4 {
+    top: -1692px;
+}
+
+
+._b4 {
+    top: -1739px;
+}
+
+._c4 {
+    top: -1786px;
+}
+
+._d4 {
+    top: -1833px;
+}
+
+._e4 {
+    top: -1880px;
+}
+
+._f4 {
+    top: -1927px;
+}
+
+._g4 {
+    top: -1974px;
+}
+
+._h4 {
+    top: -2021px;
+}
+
+._last4 {
+    top: -2068px;
+}
+
+
+
+._first5 {
+    top: -2068px;
+}
+
+._a5 {
+    top: -2115px;
+}
+
+
+._b5 {
+    top: -2162px;
+}
+
+._c5 {
+    top: -2209px;
+}
+
+._d5 {
+    top: -2256px;
+}
+
+._e5 {
+    top: -2303px;
+}
+
+._f5 {
+    top: -2350px;
+}
+
+._g5 {
+    top: -2397px;
+}
+
+._h5 {
+    top: -2444px;
+}
+
+._last5 {
+    top: -2491px;
+}
+
+
+
+
+._first6 {
+    top: -2491px;
+}
+
+._a6 {
+    top: -2538px;
+}
+
+
+._b6 {
+    top: -2585px;
+}
+
+._c6 {
+    top: -2632px;
+}
+
+._d6 {
+    top: -2679px;
+}
+
+._e6 {
+    top: -2726px;
+}
+
+._f6 {
+    top: -2773px;
+}
+
+._g6 {
+    top: -2820px;
+}
+
+._h6 {
+    top: -2867px;
+}
+
+._last6 {
+    top: -2914px;
+}
+
+
+
+._first7 {
+    top: -2914px;
+}
+
+._a7 {
+    top: -2961px;
+}
+
+
+._b7 {
+    top: -3008px;
+}
+
+._c7 {
+    top: -3055px;
+}
+
+._d7 {
+    top: -3102px;
+}
+
+._e7 {
+    top: -3149px;
+}
+
+._f7 {
+    top: -3196px;
+}
+
+._g7 {
+    top: -3243px;
+}
+
+._h7 {
+    top: -3290px;
+}
+
+._last7 {
+    top: -3337px;
+}
+
+
+
+
+._first8 {
+    top: -3337px;
+}
+
+._a8 {
+    top: -3384px;
+}
+
+
+._b8 {
+    top: -3431px;
+}
+
+._c8 {
+    top: -3478px;
+}
+
+._d8 {
+    top: -3525px;
+}
+
+._e8 {
+    top: -3572px;
+}
+
+._f8 {
+    top: -3619px;
+}
+
+._g8 {
+    top: -3666px;
+}
+
+._h8 {
+    top: -3713px;
+}
+
+._last8 {
+    top: -3760px;
+}
+
+
+
+._first9 {
+    top: -3760px;
+}
+
+._a9 {
+    top: -3807px;
+}
+
+
+._b9 {
+    top: -3854px;
+}
+
+._c9 {
+    top: -3901px;
+}
+
+._d9 {
+    top: -3948px;
+}
+
+._e9 {
+    top: -3995px;
+}
+
+._f9 {
+    top: -4042px;
+}
+
+._g9 {
+    top: -4089px;
+}
+
+._h9 {
+    top: -4136px;
+}
+
+._last9 {
+    top: -4183px;
+}
