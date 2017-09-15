@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.fon {
+    background-color: grey;
+}
+
+.figure {
+    background-image: url('../img/chess.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.peshka {
+    background-position-x: -263px;
+}
+
+.ladya {
+    background-position-x: -104px;
+}
+
+.kon {
+    background-position-x: -210px;
+}
+
+.slon {
+    background-position-x: -156px;
+}
+
+.queen {
+    background-position-x: -50px;
+}
+
+.king {
+    background-position-x: 0px;
+}
+
+.black {
+    background-position-y: 0px;
+}
+
+.white {background-position-y: -52px;
+}
