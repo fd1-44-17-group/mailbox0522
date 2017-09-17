@@ -1,0 +1,19 @@
+.standart {
+    border: solid 1px;
+    width: 9vw;
+    height: 9vw;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 7vw;
+    font-style: italic;
+    border-collapse: collapse;
+    float: left;
+}
+
+.fon {
+    background-color: grey;
+}
+
+.main {
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.cell {
+    float: left;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px;
+    font-size: 30px;
+}
+
+.row {
+    clear: both;
+    width: 470px;
+}
+
+.fon {
+    background-color: grey;
+}
