@@ -1,0 +1,18 @@
+.cell {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px;
+}
+
+.newline {
+    clear: both;
+    width: 96px;
+}
+._right {float: right;}
+._left {float: left;}
+._pol {margin-right: 32px;}
+._otr {margin-right: -64px;}
+
