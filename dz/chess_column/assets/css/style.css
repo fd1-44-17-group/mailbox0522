@@ -1,0 +1,16 @@
+.cell {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+}
+
+.fon {
+    background-color: grey;
+}
