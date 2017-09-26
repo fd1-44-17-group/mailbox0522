@@ -6,16 +6,9 @@
     text-align: center;
     padding-top: 2vmin;
     padding-bottom: 2vmin;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
     float: left;
-}
-
-h4:nth-of-type(1) {
-    font-weight: bold;
-    padding-left: 3vmin;
-}
-
-ul {
-    padding-left: 5vmin;
 }
 
 #main {
@@ -24,16 +17,25 @@ ul {
     background-image: url(../img/ball.png);
     background-position: right;
     background-repeat: repeat-y;
-
 }
 
 #menu {
-    width: 35vmin;
+    width: 200px;
     text-align: left;
     vertical-align: top;
-    background-color: #F0E68C;
     font-size: 18px;
     float: left;
+    margin-right: 3vmin;
+    background-color: #F0E68C;
+}
+
+h4:nth-of-type(1) {
+    font-weight: bold;
+    padding-left: 3vmin;
+}
+
+h2 {
+    text-align: center;
 }
 
 img {
@@ -41,13 +43,20 @@ img {
     margin-right: 3vmin;
 }
 
-h2 {
-    text-align: center;
-}
-
-#main_text {
+#text {
     padding: 3vmin;
-
 }
 
-
+@media screen and (max-width: 400px) {
+    #main {
+        display: table;
+    }
+    #menu {
+        display: table-footer-group;
+        width: 100%;
+    }
+    #text {
+        display: table-header-group;
+        width: 100%;
+    }
+}
