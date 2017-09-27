@@ -1,0 +1,62 @@
+.edge {
+    width: 100%;
+    background-color: #B0E0E6;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    float: left;
+}
+
+#main {
+    width: 100%;
+    float: left;
+    background-image: url(../img/ball.png);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+#menu {
+    width: 200px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 18px;
+    float: left;
+    margin-right: 3vmin;
+    background-color: #F0E68C;
+}
+
+h4:nth-of-type(1) {
+    font-weight: bold;
+    padding-left: 3vmin;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 3vmin;
+}
+
+#text {
+    padding: 3vmin;
+}
+
+@media screen and (max-width: 400px) {
+    #main {
+        display: table;
+    }
+    #menu {
+        display: table-footer-group;
+        width: 100%;
+    }
+    #text {
+        display: table-header-group;
+        width: 100%;
+    }
+}
