@@ -1,0 +1,121 @@
+._head {
+    width: 380px;
+    height: 380px;
+    border: solid 15px;
+    border-radius: 200px;
+    position: relative;
+}
+
+._smile {
+    width: 250px;
+    height: 250px;
+    border-radius: 280px;
+    border-bottom: solid 15px;
+    border-right: solid 15px;
+    border-left: solid 15px white;
+    border-top: solid 15px white;
+    position: relative;
+    transform: rotate(45deg);
+    top: -342px;
+    right: -66px;
+}
+
+._smile:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: 212px;
+    right: 211px;
+}
+
+._smile:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: 26px;
+    right: 23px;
+}
+
+.left_eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 280px;
+    border-bottom: solid 15px white;
+    border-right: solid 15px white;
+    border-left: solid 15px;
+    border-top: solid 15px;
+    position: relative;
+    transform: rotate(45deg);
+    top: -580px;
+    right: -96px;
+}
+
+.left_eye:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: 49px;
+    right: 50px;
+}
+
+.left_eye:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+}
+
+.right_eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 280px;
+    border-bottom: solid 15px white;
+    border-right: solid 15px white;
+    border-left: solid 15px;
+    border-top: solid 15px;
+    position: relative;
+    transform: rotate(45deg);
+    top: -671px;
+    right: -220px;
+}
+
+.right_eye:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: 49px;
+    right: 50px;
+}
+
+.right_eye:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+}
