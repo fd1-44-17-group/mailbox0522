@@ -12,8 +12,8 @@
     border-radius: 280px;
     border-bottom: solid 15px;
     border-right: solid 15px;
-    border-left: solid 15px white;
-    border-top: solid 15px white;
+    border-left: solid 15px rgba(0, 0, 0, 0);
+    border-top: solid 15px rgba(0, 0, 0, 0);
     position: relative;
     transform: rotate(45deg);
     top: -342px;
@@ -48,8 +48,8 @@
     width: 60px;
     height: 60px;
     border-radius: 280px;
-    border-bottom: solid 15px white;
-    border-right: solid 15px white;
+    border-bottom: solid 15px rgba(0, 0, 0, 0);
+    border-right: solid 15px rgba(0, 0, 0, 0);
     border-left: solid 15px;
     border-top: solid 15px;
     position: relative;
@@ -86,8 +86,8 @@
     width: 60px;
     height: 60px;
     border-radius: 280px;
-    border-bottom: solid 15px white;
-    border-right: solid 15px white;
+    border-bottom: solid 15px rgba(0, 0, 0, 0);
+    border-right: solid 15px rgba(0, 0, 0, 0);
     border-left: solid 15px;
     border-top: solid 15px;
     position: relative;
