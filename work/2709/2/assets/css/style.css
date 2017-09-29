@@ -1,0 +1,35 @@
+body {
+    width: 500px;
+    line-height: 1.5em;
+}
+
+.v_ramke {
+    background-color: #DCDCDC;
+    height: 2em;
+    border: solid 1px #A9A9A9;
+    padding-top: 0.5em;
+}
+
+.button {
+    background-color: #DCDCDC;
+    border: solid 1px #A9A9A9;
+}
+
+span {
+    padding: 3px;
+}
+
+div {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #DCDCDC;
+    border: solid 1px #A9A9A9;
+    padding: 7px;
+}
+
+#_8080 {
+    color: blue;
+}
