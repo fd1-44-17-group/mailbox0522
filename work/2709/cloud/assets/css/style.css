@@ -1,0 +1,23 @@
+#main {
+    height: 150px;
+    width: 200px;
+    border: 3px dotted grey;
+    border-radius: 10px;
+    position: relative;
+    background-color: lightgray;
+}
+
+#main:before {
+    display: block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: dotted 3px grey;
+    transform: skew(45deg);
+    position: absolute;
+    right: -19px;
+    bottom: 15px;
+    border-left: 0;
+    border-top: 0;
+    background-color: lightgray;
+}

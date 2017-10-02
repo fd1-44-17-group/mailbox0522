@@ -1,0 +1,59 @@
+.button {
+    width: 220px;
+    height: 50px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.dot {
+    border: solid 2px grey;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+._1 {
+    left: 40px;
+    top: 25px;
+}
+
+._2 {
+    left: 40px;
+    top: 33px;
+}
+
+._3 {
+    left: 40px;
+    top: 41px;
+}
+
+._4 {
+    left: 40px;
+    top: 49px;
+}
+
+.button:after {
+    display: none;
+    content: '';
+    position: absolute;
+    border: solid 20px grey;
+    transform: rotate(52deg) skew(15deg);
+    top: 21px;
+    left: 203px;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.button:hover:after {
+    display: block;
+}
+
+.dot:hover {
+    background-color: red;
+}
