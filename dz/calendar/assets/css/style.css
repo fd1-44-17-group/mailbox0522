@@ -1,0 +1,91 @@
+.main {
+    width: 85vmin;
+    height: 87vmin;
+}
+
+.archive {
+    width: 85vmin;
+    height: 15vmin;
+    border-radius: 3vmin;
+    background-color: #2E8B57;
+    color: white;
+    text-transform: uppercase;
+    font-size: 8vmin;
+    text-align: center;
+    padding-top: 3vmin;
+}
+
+.month {
+    width: 85vmin;
+    height: 10vmin;
+    position: absolute;
+    top: 17vmin;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 6vmin;
+    padding-top: 2vmin;
+}
+
+._left {
+    position: absolute;
+    width: 0vmin;
+    height: 0vmin;
+    border-left: solid 3vmin #3CB371;
+    border-top: solid 3vmin #3CB371;
+    border-right: solid 3vmin rgba(0, 0, 0, 0);
+    border-bottom: solid 3vmin rgba(0, 0, 0, 0);
+    transform: rotate(-45deg);
+    border-radius: 1vmin;
+    top: 3vmin;
+    left: 5vmin;
+}
+
+._right {
+    position: absolute;
+    width: 0vmin;
+    height: 0vmin;
+    border-left: solid 3vmin rgba(0, 0, 0, 0);
+    border-top: solid 3vmin rgba(0, 0, 0, 0);
+    border-right: solid 3vmin #3CB371;
+    border-bottom: solid 3vmin #3CB371;
+    transform: rotate(-45deg);
+    border-radius: 1vmin;
+    top: 3vmin;
+    left: 74vmin;
+}
+
+.around_date {
+    background-color: #DCDCDC;
+    height: 70vmin;
+    width: 85vmin;
+}
+
+.date {
+    width: 70vmin;
+    height: 45vmin;
+    position: relative;
+    top: 15vmin;
+    left: 6vmin;
+    background-color: #DCDCDC;
+}
+
+.date>div {
+    width: 8vmin;
+    height: 10vmin;
+    float: left;
+    text-align: right;
+    font-size: 6vmin;
+    line-height: 9vmin;
+    padding-right: 2vmin;
+}
+
+.date>div:nth-of-type(-n+31):not(:nth-of-type(-n+4)) {
+    color: #808080;
+}
+
+.date>div:nth-of-type(4) {
+    background-color: #2E8B57;
+    color: white;
+}

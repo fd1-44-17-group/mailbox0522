@@ -1,0 +1,41 @@
+.main {
+    font-family: Arial, sans-serif;
+    width: 92vmin;
+    height: 10vmin;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+    padding-top: 1vmin;
+    font-size: 5vmin;
+}
+
+.main>div {
+    width: 9vmin;
+    height: 9vmin;
+    float: left;
+    text-align: center;
+    line-height: 8vmin;
+}
+
+.main>div:not(:nth-of-type(4)) {
+    color: #00BFFF;
+    text-decoration: underline;
+}
+
+.main>div:not(:nth-of-type(4)):after {
+    display: block;
+    content: '';
+    border-bottom: 1vmin solid #DCDCDC;
+    padding-bottom: 6vmin;
+}
+
+.main>div:nth-of-type(4) {
+    color: white;
+    background-color: #FF8C00
+}
+
+.main>div:nth-of-type(4):after {
+    display: block;
+    content: '';
+    border-bottom: 1vmin solid #FF8C00;
+    padding-bottom: 6vmin;
+}
