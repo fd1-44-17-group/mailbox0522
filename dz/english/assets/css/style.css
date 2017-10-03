@@ -1,0 +1,60 @@
+.main {
+    width: 600px;
+    height: 150px;
+    background-color: #F5F5F5;
+    font-family: Roboto, sans-serif;
+    border: solid 1px;
+}
+
+img {
+    height: 150px;
+}
+
+._blue {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    background-color: #4682B4;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    top: 30px;
+    left: 160px;
+}
+
+._blue:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 193px;
+    height: 5px;
+    background-color: #4682B4;
+    top: 15px;
+    left: 250px;
+    overflow: hidden;
+}
+
+._red {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    top: 90px;
+    left: 240px;
+}
+._red:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 112px;
+    height: 5px;
+    background-color: red;
+    top: 15px;
+    left: 250px;
+    overflow: hidden;
+}
