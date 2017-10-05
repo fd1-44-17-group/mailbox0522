@@ -1,0 +1,17 @@
+.outside {
+    width: 120vmin;
+    height: 100vmin;
+    background-color: #8FBC8F;
+    position: relative;
+}
+
+.inside {
+    position: absolute;
+    width: 40vmin;
+    height: 40vmin;
+    border-radius: 40vmin;
+    top: 30vmin;
+    left: 40vmin;
+    box-shadow: inset 0 0 0 20vmin,
+    0 0 0 20vmin #FFA500;
+}
