@@ -1,0 +1,31 @@
+div {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 10px yellow solid;
+    outline: 10px solid green;
+    top: 30px;
+    left: 30px;
+}
+
+div:before {
+    display: block;
+    content: '';
+    position: absolute;
+    border: 10px blue solid;
+    width: 80px;
+    height: 80px;
+    top: -30px;
+    left: -30px;
+}
+
+div:after {
+    display: block;
+    content: '';
+    position: absolute;
+    border: 10px red solid;
+    width: 100px;
+    height: 100px;
+    top: -40px;
+    left: -40px;
+}
