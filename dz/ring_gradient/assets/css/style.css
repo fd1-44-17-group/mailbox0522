@@ -1,0 +1,5 @@
+div {
+    width: 120vmin;
+    height: 100vmin;
+    background-image: radial-gradient(circle, #000 20vmin, #FFA500 21vmin, #FFA500 40vmin, #8FBC8F 41px);
+}
